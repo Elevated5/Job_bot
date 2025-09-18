@@ -7,19 +7,19 @@ from typing import Dict, Any, Optional, List
 import discord
 from discord.ext import commands
 
-# ------------- CONFIG: FILL THESE -------------
-TOKEN = "MTQxMzI0Mzc2NjA4ODc5NDIxNA.G_Adv1.cjkkimE7knPqJbl_4eIg6FQhPJBffI3PLStEew"
+# CONFIG: FILL THESE 
+TOKEN = ""
 
 GUILD_ID = 0  # Optional safety; set to your guild/server ID or leave 0 to work on any guild
 
 # CHANNELS
-JOB_BOARD_CHANNEL_ID = 1413240419608825958      # Channel where the combined buttons will live (persistent)
-JOB_REVIEW_CHANNEL_ID = 1413240960405475348       # Private mods-only review channel
-JOB_LISTINGS_CHANNEL_ID = 1373916906775380058    # Public channel where approved jobs get posted (FORUM CHANNEL)
-SERVICES_LISTINGS_CHANNEL_ID = 1373916692601896961  # Channel where service listings are posted (FORUM CHANNEL)
+JOB_BOARD_CHANNEL_ID = # Channel where the combined buttons will live (persistent)
+JOB_REVIEW_CHANNEL_ID =       # Private mods-only review channel
+JOB_LISTINGS_CHANNEL_ID =     # Public channel where approved jobs get posted (FORUM CHANNEL)
+SERVICES_LISTINGS_CHANNEL_ID =   # Channel where service listings are posted (FORUM CHANNEL)
 
 # ROLES / CATEGORY
-MODS_ROLE_ID = 1373910447559802931             # Role ID for moderators
+MODS_ROLE_ID =              # Role ID for moderators
 PRIVATE_DISCUSS_CATEGORY_ID = 0 # Category ID where private applicant chats are created (optional; set 0 to use no category)
 
 # BUMP COOLDOWN
